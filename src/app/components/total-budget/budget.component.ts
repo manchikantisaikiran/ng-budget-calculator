@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { BudgetService } from '../budget.service';
-import { Spends } from '../spends';
+import { BudgetService } from '../../budget.service';
+import { Spends } from '../../spends';
 
 @Component({
   selector: 'app-budget',

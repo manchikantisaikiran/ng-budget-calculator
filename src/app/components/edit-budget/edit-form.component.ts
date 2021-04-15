@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router'
-import { BudgetService } from '../budget.service';
-import { Spends } from '../spends'
+import { BudgetService } from '../../budget.service';
+import { Spends } from '../../spends'
 import { FormControl } from '@angular/forms'
 @Component({
   selector: 'app-edit-form',
